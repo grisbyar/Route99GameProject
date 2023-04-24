@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 12155949}
   - component: {fileID: 12155948}
   - component: {fileID: 12155947}
+  - component: {fileID: 12155951}
   m_Layer: 0
   m_Name: River
   m_TagString: Untagged
@@ -221,6 +222,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &12155951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12155946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912ffa9d26e93504597ae313651c02ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winScene: VictoryScreen
 --- !u!1001 &296182296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1656,6 +1670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737f00e5fb628a14299b6e69f69c4005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 0}
+  spawnPoint: {fileID: 442794905}
 --- !u!4 &1906982445
 Transform:
   m_ObjectHideFlags: 0
