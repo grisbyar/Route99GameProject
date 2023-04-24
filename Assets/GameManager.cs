@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
 
             // Instantiate the new player at the spawn point
             currentPlayer = Instantiate(playerPrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
+            currentPlayer.tag = "Player";
         }
     }
 
