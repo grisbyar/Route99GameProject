@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class WinCollider : MonoBehaviour
 {
     //if player colliders, user wins
-    public string winScene = VictoryScreen;
+    public string winScene = "VictoryScreen";
 
   public void onTriggerEnter(Collider other)
   {
